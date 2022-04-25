@@ -5,6 +5,9 @@ public class stringSort{
         char[] ch=s.toCharArray();
         Arrays.sort(ch);
         String sort= new String(ch);
+        System.out.println("Original string is ");
+        System.out.println(s);
+        System.out.println("sorted string is");
         System.out.println(sort);
         
     }
