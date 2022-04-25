@@ -8,7 +8,6 @@ public class matrixAddition {
             }
             System.out.println();
         }
-
     }
     public static void main(String[] args) {
         int[][] mat1=new int[5][5];
@@ -41,8 +40,6 @@ public class matrixAddition {
             }
         }
 
-        
-
         if(rows1==rows2 && cols1==cols2)
         {
             for(int i=0;i<rows1;i++)
@@ -52,7 +49,6 @@ public class matrixAddition {
                     mat3[i][j]=mat1[i][j]+mat2[i][j];
                 }
             }
-
             System.out.println("1st matrix");
             obj.Display(mat1,rows1,cols1);
             System.out.println("2nd matrix");

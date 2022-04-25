@@ -38,10 +38,5 @@ public class product_details{
         else{
             System.out.println("product 3 is lesser cost");
         }
-
-
-
-
-        
     }
 }
