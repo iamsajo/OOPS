@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class matrixMultiplication{
     Scanner s=new Scanner(System.in);
     public void Display(int [][] arr,int row,int col){
@@ -9,9 +8,7 @@ public class matrixMultiplication{
             }
             System.out.println();
         }
-
     }
-
     public int[][] input(int row,int col){
         int[][] arr=new int[row][col];
         System.out.println("Enter the elements of matrix");
@@ -22,7 +19,6 @@ public class matrixMultiplication{
         }
         return arr;
     }
-
     public int[][] multiplication(int row, int col,int[][] arr1,int[][] arr2){
         int[][] arr3=new int[row][col];
         for(int i=0;i<row;i++){
@@ -34,8 +30,6 @@ public class matrixMultiplication{
         }
         return arr3;
     }
-
-
     public static void main(String[] args){
         int row1,col1,row2,col2;
         matrixMultiplication obj=new matrixMultiplication();
@@ -76,7 +70,5 @@ public class matrixMultiplication{
                 }
             }
         }
-
     }
-
 }

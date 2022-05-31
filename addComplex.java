@@ -7,7 +7,6 @@ class complex{
 }
 public class addComplex {
     public static void main(String[] args) {
-
         complex c1=new complex();
         complex c2=new complex();
         complex c3=new complex();

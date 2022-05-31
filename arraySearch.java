@@ -5,7 +5,7 @@ public class arraySearch {
         Scanner sc=new Scanner(System.in);
         String search;
         String [] str=new String[30];
-        int count,flag=0;
+        int count,flag=0;                                                                                                       
         System.out.println("enter the count of the array");
         count=sc.nextInt();
         System.out.println("enter the elements");
