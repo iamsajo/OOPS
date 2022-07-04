@@ -13,7 +13,6 @@ class Employee{
         System.out.println("Employee name = "+e_name);
         System.out.println("employee salary = "+e_sal);
         System.out.println("employee address = "+e_address);
-
     }
 }
 class Teacher extends Employee{
@@ -30,8 +29,6 @@ class Teacher extends Employee{
         System.out.println("Employee name = "+e_name);
         System.out.println("employee salary = "+e_sal);
         System.out.println("employee address = "+e_address);
-
-
     }
 }
 

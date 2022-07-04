@@ -14,7 +14,6 @@ class Sports extends Student{
         sp_name=s_name;
 
     }
-    
 }
 class Result extends Sports{
     String res;

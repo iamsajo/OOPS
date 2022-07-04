@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import org.omg.CORBA.DynAnyPackage.Invalid;
 
 interface Area{
     final double pi=3.141;

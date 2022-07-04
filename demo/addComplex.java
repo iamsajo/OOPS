@@ -3,6 +3,7 @@ class complex{
     int r,b;
     void display(){
         System.out.println("Complex Number is "+r+"+"+b+"i");
+        
     }
 }
 public class addComplex {
