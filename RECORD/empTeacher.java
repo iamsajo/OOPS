@@ -38,7 +38,7 @@ class Teacher extends Employee {
     }
 }
 
-public class CO32 {
+public class empTeacher {
     public static void main(String[] args) {
         int count, id;
         String name, dept, sub, address;
